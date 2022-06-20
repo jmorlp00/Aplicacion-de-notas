@@ -1,0 +1,55 @@
+body {
+    background: #034efd;
+    background: -webkit-linear-gradient(to right, #d400ff, #034efd);
+    background: linear-gradient(to right, #d400ff, #034efd);
+    color: #fff;
+
+    text-align: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.notasBody {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5%;
+    background-color: #2196F3;
+    padding: 10px;
+    
+}
+
+.notasSuperior {
+    
+    display: flex;
+    align-items: center;
+}
+
+.notasHeader{
+    border-radius: 8px;
+}
+
+.notasFormulario {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.notasHeader, .notasBody, .notasFormulario {
+    background-color: rgba(0,0,0,.5);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.notasBody{
+    margin-top: 20px;
+}
+
+.notasFormulario{
+    top: 0;
+    
+
+    left: 0;
+    width: 22%;
+}

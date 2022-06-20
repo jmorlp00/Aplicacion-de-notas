@@ -1,0 +1,24 @@
+.Note{
+    background-color: #034efd73;
+    padding: 20px;
+    color: black;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.Note button{
+    padding: 10px;
+    color: #fff;
+    background: #a51dff;
+    border: none;
+    border-radius: 3px;
+    margin: 1px;
+}
+.Note button:hover{
+    background-color: #5f009e;
+}
+
+.Note dialog{
+    color: #fff;
+    background: #a51dff;
+}
